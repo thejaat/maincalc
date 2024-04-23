@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  color: rgb(235, 24, 33);
+  padding: 10px;
+}
+header h1 a{
+  color: rgb(235, 24, 33);
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  cursor: pointer;
+}
+header ul li a{
+  color: aliceblue;
+  text-decoration: none;
+}
+.momix-logo {
+  height: 160px;
+}
+.app-download {
+  background-color: rgb(240, 240, 240);
+}
+.app-download {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 20px;
+}
+.app-download a {
+  padding: 10px;
+  display: block;
+  background: rgb(235, 24, 33);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.about-momix {
+  display: flex;
+  flex-flow: column;
+  padding: 2% 10%;
+}
+.faq-list {
+    /* list-style-type: none; */
+    padding: 0;
+    margin: 0;
+    display: block;
+  }
+  .faq-list li {
+    margin-bottom: 10px;
+  }
+  .faq-list li .question {
+    font-weight: bold;
+  }
+
+/* utility class */
+.tittle-stylo{
+  background-color: black;
+  color: rgb(235, 24, 33);
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: bold;
+  margin: 10px;
+}
+.small-font{
+    font-size: 18px;
+    margin: 10px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+}
+td{
+    border: 1px solid black;
+    padding: 2px 20px;
+}
+.secondheder{
+    
+    color: rgb(235, 24, 33);
+    border-bottom: 1px solid rgb(235, 24, 33);
+    font-size: 30px;
+    font-weight: bold;
+  
+}
+/* ssh */
+
